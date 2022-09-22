@@ -55,7 +55,7 @@ ROOT_URLCONF = 'EntregableMvt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [f'{BASE_DIR}/EntregableMvt/template',f'{BASE_DIR}/AppFamilia/template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
