@@ -5,4 +5,5 @@ from AppFamilia.views import *
 urlpatterns = [
     path('', inicio),
     path('familia/', familia),
+
 ]
