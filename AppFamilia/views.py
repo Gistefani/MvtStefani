@@ -7,3 +7,9 @@ def inicio (request):
 
 def familia (request):
     return render (request, "familia.html")    
+
+def Amigos (request):
+    return render (request, "Amigos.html")  
+
+def Asistencia (request):
+    return render (request, "Asistencia.html")  

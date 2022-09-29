@@ -4,3 +4,5 @@ from .models import *
 # Register your models here.
 
 admin.site.register(Familia)
+admin.site.register(Amigos)
+admin.site.register(Asistencia)
